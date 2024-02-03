@@ -1,0 +1,59 @@
+.cart-items > img{
+   width:230px;
+   height: 250px;
+   transition: transfrom 2s ease-in-out;
+}
+.cart-items img:hover {
+  transform: scale(1.1);
+}
+.cart-items {
+  width: 230px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  box-shadow: -3px -3px 1px rgba(0,0,0,0.25) ;
+  box-shadow: 3px 3px 1px rgba(0,0,0,0.25) ;
+  box-shadow: 0 0 1px rgba(0,0,0,0.25) ;
+}
+.cart-items .cart-description {
+    font-size:20px;
+    text-align: center;
+}
+.countHander > button {
+  width:40px;
+  height:35px;
+  margin-bottom: 9px;
+  cursor: pointer;
+}
+.countHander > input {
+  width: 40px;
+  height:30px;
+  text-align: center;
+  cursor: pointer;
+}
+.cart {
+  display: grid;
+  justify-content:left;
+}
+.cartText {
+  text-align: center;
+  font-size:25px;
+}
+.totalCost p {
+  padding-top: 6px;
+}
+.totalCost button {
+  margin-right: 9px;
+  cursor:pointer;
+}
+.checkout {
+  margin-bottom:30px;
+}
+.btnMouseOver{
+  background-color:black;
+  color:white;
+}
+.btnMouseOut {
+  background-color: white;
+  color:black;
+}

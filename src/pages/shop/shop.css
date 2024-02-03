@@ -1,0 +1,33 @@
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    row-gap: 40px;
+    column-gap: 40px;
+  }
+  .product {
+    margin-left: 12px;
+    margin-right:12px;
+    height:auto;
+    box-shadow: -3px -3px 5px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-align: center;
+  }
+ .product img { 
+    object-fit:fill;
+    height:300px;
+    max-width:100%;
+     width:100%;
+ }
+ .product .Pbtn {
+  margin-bottom: 7px;
+  cursor:pointer;
+ }
+ 
+ .shop .title {
+     margin-top: 30px;
+     height: 50px;
+     text-align: center;
+     font-size: 30px;
+ }
